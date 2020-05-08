@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CineYa</string>
+    <string name="title_activity_ubicacion_buscar">Map</string>
+</resources>
