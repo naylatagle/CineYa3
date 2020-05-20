@@ -32,7 +32,8 @@ public class CineApiCliente {
     private static CineApi getClient(){
         if(cliente == null){
             Retrofit retrofit = new Retrofit.Builder()
-                    .baseUrl("https://my-json-server.typicode.com/naylatagle/demo/")
+                    //.baseUrl("https://my-json-server.typicode.com/naylatagle/demo/")
+                    .baseUrl("https://vanadous-inches.000webhostapp.com/")
                     .addConverterFactory(GsonConverterFactory.create(new Gson()))
                     .build();
             cliente = retrofit.create(CineApi.class);

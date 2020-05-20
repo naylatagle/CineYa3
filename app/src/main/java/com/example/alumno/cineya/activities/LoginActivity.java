@@ -21,6 +21,9 @@ public class LoginActivity extends AppCompatActivity {
     private Context context;
     private SharedPreferences sharedPreferences;
 
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -95,6 +98,8 @@ public class LoginActivity extends AppCompatActivity {
     private boolean isLoginSuccessful(String username, String password) {
         return username.equals("Cine") && password.equals("Ya");
     }
+
+
 
 
 }

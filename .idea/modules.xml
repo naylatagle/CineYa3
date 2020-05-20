@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CineYa-hot-fix.iml" filepath="$PROJECT_DIR$/CineYa-hot-fix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="cineya2/app" />
+      <module fileurl="file://$PROJECT_DIR$/cineya2.iml" filepath="$PROJECT_DIR$/cineya2.iml" group="cineya2" />
     </modules>
   </component>
 </project>
